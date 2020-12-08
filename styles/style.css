@@ -13,7 +13,7 @@
 body {
   margin: 0;
   background: #222;
-  font-family: font-family: 'Cinzel', serif;
+  font-family:'Cinzel', serif;
   font-weight: 400;
 }
 
@@ -65,10 +65,10 @@ nav a {
   transition: opacity 150ms ease-out;
 }
 
-.nav-togggle:checked - nav {
+.nav-togggle:checked-nav {
   display: block;
 }
-.nav-togggle:checked - nav a {
+.nav-togggle:checked-nav a {
   opacity: 1;
   transition: opacity 250ms ease-out 300ms;
 }
@@ -160,7 +160,6 @@ nav a:hover {
     transform:scale(0,1);
     transition: transform ease-out 250ms;
   }
-  nav a:hover::before{
+
     
   }
-}
